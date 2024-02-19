@@ -1,0 +1,8 @@
+total_pirates = 32
+pirates_per_bucket = 5
+
+full_buckets = total_pirates // pirates_per_bucket
+pirates_left = total_pirates % pirates_per_bucket
+
+print("Повністю заповнених діжок:", full_buckets)
+print("Піратам не вистачило місця в діжках:", pirates_left)
